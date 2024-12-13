@@ -5,210 +5,171 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Calidad y tratamiento de datos
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-9.my-lg-0.my-3
-        .bg4.p-4
-          p.mb-0 La calidad y el tratamiento adecuado de los datos son pilares fundamentales para el éxito de cualquier proyecto de análisis o inteligencia artificial. En esta sección, se abordan las metodologías y técnicas necesarias para garantizar que los datos con los que trabajamos sean confiables, consistentes y útiles para los objetivos planteados. 
+      h1 Control de variables en procesos productivos automatizados
+    .row.bg6.align-items-center
+      .px-lg-5.px-4          
+        .row.justify-content-center.mb-4   
+          .col-lg-3.my-lg-0.my-3.j1
+            p.mb-0 El control de variables en procesos productivos es una práctica esencial para garantizar que los sistemas funcionen dentro de los parámetros establecidos, asegurando así la eficiencia, calidad y sostenibilidad del proceso. En la industria moderna, la automatización ha permitido implementar sistemas de control avanzados que monitorean y ajustan continuamente variables críticas, minimizando la intervención humana y optimizando el rendimiento.
 
-      .col-lg-3.my-lg-0.my-3
-        img.img-a.img-t(src='@/assets/curso/temas/34.png', alt='')          
+          .col-lg-4.my-lg-0.my-3.j1
+            img.img-a.img-t(src='@/assets/curso/temas/31.png' alt='')   
+
+          .col-lg-5.my-lg-0.my-3
+            .bg2.p-3.brad.h-100.j1
+              p.mb-0 En un entorno productivo, el término “variable” se refiere a cualquier parámetro del proceso que deba mantenerse o controlarse para alcanzar un rendimiento óptimo. Entre las variables más comunes se encuentran la temperatura, la humedad, el pH, la presión, el flujo, el nivel y la conductividad, que impactan directamente en la calidad del producto final y la eficiencia del proceso. En este capítulo se profundiza en la importancia del control de variables en sistemas automatizados, se analizan las principales variables de control y se presentan herramientas para su monitoreo en tiempo real. 
+
+        Separador 
+        #t_2_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+          h2 2.1  Importancia del monitoreo de variables en procesos productivo 
+
+        .row.justify-content-center.mb-4
+          .col-lg-7.my-lg-0.my-3
+            p El monitoreo de variables es fundamental en los sistemas de producción porque permite mantener el proceso dentro de las condiciones ideales, evitando desajustes que puedan afectar la calidad, seguridad o eficiencia. La automatización en la gestión de variables no solo mejora el rendimiento del sistema, sino que también permite un uso más eficiente de los recursos. Por ejemplo, en la agricultura, el monitoreo constante de la humedad del suelo ayuda a reducir el consumo de agua al aplicar riego solo cuando es necesario, lo que no solo conserva el recurso sino que también optimiza el crecimiento del cultivo. 
+            .bg1.p-4.brad
+              p.mb-0 El monitoreo en tiempo real permite detectar y responder de inmediato a condiciones fuera de los parámetros establecidos, minimizando las pérdidas y maximizando la producción. Esto es particularmente relevante en sectores sensibles a las condiciones ambientales, como la agroindustria y la manufactura de alimentos, donde los cambios en temperatura o humedad pueden afectar significativamente la calidad del producto final. Además, en sistemas críticos, el monitoreo de variables proporciona una base para realizar un mantenimiento predictivo, anticipando posibles fallos y asegurando la continuidad operativa.  
+
+          .col-lg-5.my-lg-0.my-3
+            img.img-a.img-t(src='@/assets/curso/temas/32.png' alt='')   
 
     Separador 
-    #t_2_1.titulo-segundo.color-acento-contenido
-      h2 2.1 Características de calidad de datos
-
-    .row.justify-content-center.align-items-center.mb-4
-      .col-auto.my-lg-0.my-3
-        img.img-a.img-t(src='@/assets/curso/temas/31.svg', alt='')       
-      .col.my-lg-0.my-3
-        .bg6.p-3
-          p.mb-0 La calidad de los datos es un aspecto fundamental en el desarrollo de modelos de inteligencia artificial. Así como un chef no puede preparar un platillo exquisito con ingredientes en mal estado, un modelo de IA no puede proporcionar resultados confiables si se alimenta con datos de baja calidad. La famosa frase "#[i #[b garbage in, garbage out]]" (entra basura, sale basura) resume perfectamente esta realidad en el campo del análisis de datos.   
-
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-9.my-lg-0.my-3
-        p La calidad de los datos se puede evaluar a través de múltiples dimensiones. La precisión es quizás la más evidente: los datos deben representar fielmente la realidad que intentan capturar. Por ejemplo, si estamos registrando la temperatura de un proceso industrial, necesitamos asegurarnos de que nuestros sensores estén correctamente calibrados y que las mediciones sean exactas.
-        p La completitud es otra dimensión estratégica. Los datos incompletos pueden llevar a conclusiones sesgadas o incorrectas. Imaginemos un estudio de satisfacción del cliente donde solo tenemos respuestas de usuarios muy satisfechos o insatisfechos: esto nos daría una visión distorsionada de la realidad, pues faltaría la información de aquellos clientes con opiniones moderadas.
-        .bg6.p-3
-          p.mb-0 La consistencia de los datos implica que la información sea coherente a través de diferentes sistemas y registros. Por ejemplo, si un cliente aparece con diferentes direcciones en distintas bases de datos de la empresa, ¿cuál es la correcta? La falta de consistencia puede generar confusión y errores en el procesamiento de la información.  
-
-      .col-lg-3.my-lg-0.my-3
-        img.img-a.img-t(src='@/assets/curso/temas/32.png', alt='')   
-
-    .row.justify-content-start.mb-5
-      .col-auto
-        .list
-          .list__item
-            .list__item__icon
-              img.ms-2(src='@/assets/curso/temas/icon.svg' alt='')
-          .list__txt.bgicon.brad.p-0.px-4.text-white
-            h4.mb-0 Cinco recomendaciones para garantizar datos de calidad
-
-    .row.justify-content-center.mb-4 
-      .col-lg-3.my-3
-        img.img-a.img-t(src='@/assets/curso/temas/33.png', alt='')          
-      .col-lg-9.my-3
+    #t_2_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+      h2 2.2	Principales variables de control en procesos productivos
+    .row.justify-content-center.mb-4  
+      .col-lg-4.my-lg-0.my-3
+        img.img-a.img-t(src='@/assets/curso/temas/33.png' alt='')                
+      .col-lg-8.my-lg-0.my-3
+        p El tipo de variables a monitorear y controlar depende del sector y del tipo de proceso productivo. A continuación, se presentan algunas de las variables más comunes y su relevancia en distintos contextos productivos:
         AccordionRED(tipo="a" clase-tarjeta="tarjeta bg7")
-          .row.justify-content-center(titulo="Precisión en los datos")
-            .col-lg-7.my-3
-              p Los datos deben reflejar con exactitud la realidad. Es fundamental utilizar herramientas de calibración y validación para asegurar que las mediciones y registros sean correctos.
-            .col-lg-5.my-3
-              img.img-a.img-t(src='@/assets/curso/temas/35.png', alt='')   
+          div(titulo="Temperatura") Es una de las variables más controladas en la industria, ya que afecta directamente la reacción química, la estabilidad de los materiales y la eficiencia de los equipos. En la agroindustria, la temperatura ambiental y del suelo influye en el crecimiento de los cultivos, y en la manufactura es clave para el correcto funcionamiento de máquinas y la conservación de productos perecederos.
+          div(titulo="Humedad") En la agricultura, la humedad del suelo determina cuándo y cuánto regar los cultivos, optimizando el consumo de agua. En sectores como la industria textil, una humedad controlada evita la acumulación de electricidad estática, protegiendo tanto el equipo como los productos.
+          div(titulo="pH") El pH es crucial en procesos donde la acidez o alcalinidad afecta la calidad del producto, como en el tratamiento de aguas o la producción de alimentos. En la agricultura, un nivel de pH adecuado en el suelo asegura la absorción correcta de nutrientes por las plantas.
+                                    
 
-          .row.justify-content-center(titulo="Completitud de los datos")
-            .col-lg-7.my-3
-              p Los datos incompletos pueden generar conclusiones sesgadas. Asegurarse de registrar toda la información necesaria previene la distorsión en los análisis. 
-            .col-lg-5.my-3
-              img.img-a.img-t(src='@/assets/curso/temas/36.png', alt='')  
+    .row.justify-content-center.mb-4        
+      .col-lg-8.my-lg-0.my-3
+        AccordionRED.mb-4(tipo="a" clase-tarjeta="tarjeta bg7")
+          div(titulo="Presión") En sistemas de fluidos, la presión adecuada garantiza un flujo constante, lo cual es esencial en la industria petroquímica y en el manejo de gases y líquidos en procesos de manufactura.
+          div(titulo="Conductividad") La conductividad del suelo en agricultura permite estimar la cantidad de sales y nutrientes disponibles para las plantas, lo que es útil para ajustar la fertilización y evitar la acumulación de sales que pueden dañar las raíces de los cultivos.
+          div(titulo="Flujo y nivel") Estas variables son clave en sistemas de transporte de líquidos y gases. Por ejemplo, en la producción de bebidas, es crucial mantener un flujo constante para garantizar que se cumplan los tiempos de llenado y evitar desperdicios.
 
-          .row.justify-content-center(titulo="Consistencia entre sistemas")
-            .col-lg-7.my-3
-              p La coherencia de los datos debe ser garantizada entre diferentes sistemas y bases de datos. Es esencial realizar procesos de limpieza para evitar errores y discrepancias. 
-            .col-lg-5.my-3
-              img.img-a.img-t(src='@/assets/curso/temas/37.png', alt='')  
-              
-          .row.justify-content-center(titulo="Validación continua de datos")
-            .col-lg-7.my-3
-              p Implementar mecanismos automáticos de validación garantiza que los datos nuevos ingresados sigan los estándares de calidad definidos.
-            .col-lg-5.my-3
-              img.img-a.img-t(src='@/assets/curso/temas/38.png', alt='')  
-
-          .row.justify-content-center(titulo="Contextualización de los datos")
-            .col-lg-7.my-3
-              p Los datos deben ser acompañados del contexto adecuado (fecha, ubicación, evento) para ser realmente útiles en el análisis y la toma de decisiones.
-            .col-lg-5.my-3
-              img.img-a.img-t(src='@/assets/curso/temas/39.png', alt='')  
-
-          .row.justify-content-center(titulo="Resumen")
-            .col-lg-7.my-3
-              ul.lista-ul.fa-ul
-                li 
-                  i.fas.fa-check-circle.color2
-                  span Asegurar precisión en los datos.
-                li 
-                  i.fas.fa-check-circle.color2
-                  span Garantizar la completitud de la información.
-                li 
-                  i.fas.fa-check-circle.color2
-                  span Mantener consistencia entre sistemas.
-                li 
-                  i.fas.fa-check-circle.color2
-                  span Validar los datos de forma continua.
-                li 
-                  i.fas.fa-check-circle.color2
-                  span Proporcionar contexto para su correcta interpretación.            
-              p La calidad de los datos garantiza el éxito de los modelos de inteligencia artificial y genera análisis rigurosos tanto para información simple como compleja. 
-            .col-lg-5.my-3
-              img.img-a.img-t(src='@/assets/curso/temas/40.png', alt='')            
+        p Cada una de estas variables afecta directamente el desempeño del proceso y, por lo tanto, deben ser monitoreadas y controladas con precisión. El uso de sensores adecuados permite una medición precisa y en tiempo real de estas variables, lo que facilita el ajuste oportuno y asegura la estabilidad del sistema.          
+      .col-lg-4.my-lg-0.my-3
+        img.img-a.img-t(src='@/assets/curso/temas/34.png' alt='')  
 
     Separador 
-    #t_2_2.titulo-segundo.color-acento-contenido
-      h2 2.2 Técnicas de extracción y filtrado
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-7.my-lg-0.my-3
-        .bg8.p-4
-          p.mb-0 La extracción de datos es como la minería: debemos saber dónde buscar y qué herramientas utilizar para obtener la información valiosa. Este proceso involucra la identificación y recuperación de datos relevantes de diversas fuentes, que pueden incluir bases de datos relacionales, archivos de texto, hojas de cálculo, páginas web o incluso sensores IoT.      
-      .col-lg-5.my-lg-0.my-3
-        img.img-a.img-t(src='@/assets/curso/temas/42.png', alt='')       
+    #t_2_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+      h2 2.3	Herramientas para el monitoreo de variables en tiempo real
+    p El avance de la tecnología IoT ha facilitado la implementación de herramientas que permiten monitorear variables en tiempo real, lo que resulta esencial para el control automatizado de procesos. A continuación, se presentan algunas de las herramientas más utilizadas para el monitoreo y gestión de variables en procesos productivos:
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5.my-lg-0.my-3
-        img.img-a.img-t(src='@/assets/curso/temas/43.png', alt='')       
-      .col-lg-7.my-lg-0.my-3
-        .bg10.p-4
-          p Una de las técnicas más comunes de extracción es el web scraping, que permite obtener información estructurada de páginas web. Sin embargo, esta técnica debe utilizarse con responsabilidad, respetando los términos de servicio de los sitios web y las políticas de privacidad aplicables.
 
-          p.mb-0 El filtrado de datos es el proceso de eliminar o modificar datos que no cumplen con ciertos criterios de calidad o relevancia. Podemos clasificar las técnicas de filtrado en varias categorías según su propósito:   
+    .row.bg10.align-items-center
+      .col-lg-12.col-12.px-lg-5.px-4
+        .row.justify-content-center.align-items-center          
+          .col-lg-12
+            .bgw.brad.p-5.my-5
+              CarouselRED(tipo="b")
+                .row.justify-content-center
+                  .col-lg-6.my-2
+                    h5.mb-4 Sensores de campo
+                    p Los sensores son el primer eslabón en el monitoreo de variables. Existen sensores específicos para cada tipo de variable, como sensores de temperatura (ej., termopares y RTD), sensores de humedad (ej., capacitivos y resistivos), y sensores de pH y conductividad para el monitoreo del suelo en la agricultura. Estos dispositivos están diseñados para funcionar en condiciones de operación específicas y transmiten datos en tiempo real a los sistemas de control.                
+                  .col-lg-5.my-2 
+                    img.img-a.img-t(src='@/assets/curso/temas/36.png', alt='')  
 
+                .row.justify-content-center
+                  .col-lg-6.my-2
+                    h5.mb-4 Plataformas IoT para gestión de datos
+                    p Las plataformas en la nube como ThingSpeak, AWS IoT y Google Cloud IoT permiten recolectar, almacenar y analizar datos de sensores de forma remota. Estas plataformas no solo facilitan la visualización de datos en tiempo real, sino que también permiten configurar alertas y crear algoritmos de respuesta automática para mantener las variables dentro de los parámetros establecidos.                
+                  .col-lg-5.my-2 
+                    img.img-a.img-t(src='@/assets/curso/temas/37.png', alt='')  
+
+                .row.justify-content-center
+                  .col-lg-6.my-2
+                    h5.mb-4 Gateways IoT
+                    p Los gateways IoT conectan los sensores al sistema de monitoreo central y permiten la transmisión de datos mediante protocolos de comunicación como LoRaWAN y MQTT. Estos dispositivos son fundamentales en entornos donde los sensores están distribuidos en grandes áreas, como en instalaciones industriales o terrenos agrícolas extensos.                
+                  .col-lg-5.my-2 
+                    img.img-a.img-t(src='@/assets/curso/temas/38.png', alt='')  
+
+                .row.justify-content-center
+                  .col-lg-6.my-2
+                    h5.mb-4 Sistemas SCADA (Supervisión, Control y Adquisición de Datos)
+                    p Los sistemas SCADA son ampliamente utilizados en la industria para monitorear y controlar procesos en tiempo real. Estos sistemas recopilan datos de los sensores, los procesan y los muestran en interfaces de usuario intuitivas, permitiendo a los operadores tomar decisiones informadas o activar respuestas automáticas.                
+                  .col-lg-5.my-2 
+                    img.img-a.img-t(src='@/assets/curso/temas/39.png', alt='')  
+
+                .row.justify-content-center
+                  .col-lg-6.my-2
+                    h5.mb-4 Simuladores y herramientas de simulación
+                    p Para realizar pruebas de configuración y verificar el funcionamiento de los sensores y actuadores, los simuladores como Wokwi y Tinkercad permiten a los estudiantes trabajar en un entorno seguro y sin necesidad de equipos físicos. Esto es especialmente útil en etapas de desarrollo y capacitación.                
+                  .col-lg-5.my-2 
+                    img.img-a.img-t(src='@/assets/curso/temas/40.png', alt='') 
+
+    Separador 
+    #t_2_4.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+      h2 2.4	Ventajas del control de variables en sistemas automatizados
+    p El control automatizado de variables en los procesos productivos ofrece varias ventajas que impactan positivamente la operación y rentabilidad de los sistemas. A continuación, se destacan algunas de las principales ventajas:
+                
+    .row.justify-content-center.mb-4.bg1.p-4
+      .col-lg-3.my-lg-0.my-3
+        img.img-a.img-t(src='@/assets/curso/temas/41.png' alt='')        
+      .col-lg-9.my-lg-0.my-3
+        ul.lista-ul.fa-ul
+          li 
+            i.fas.fa-check-circle.color1
+            span #[b Mejora de la calidad:] al mantener las variables en rangos ideales, se asegura la uniformidad y calidad del producto final, lo que reduce el desperdicio y los costos de reproceso.
+
+          li 
+            i.fas.fa-check-circle.color1
+            span #[b Eficiencia en el uso de recursos:] el control preciso de variables permite optimizar el uso de recursos como agua, energía y materias primas, lo que se traduce en un menor costo operativo y un impacto ambiental reducido.
+
+          li 
+            i.fas.fa-check-circle.color1
+            span #[b Mantenimiento predictivo:] el monitoreo continuo facilita la identificación temprana de anomalías en el sistema, lo que permite realizar un mantenimiento preventivo antes de que ocurra una falla grave. Esto ayuda a evitar tiempos de inactividad inesperados y a extender la vida útil de los equipos.
+
+          li 
+            i.fas.fa-check-circle.color1
+            span #[b Reducción de costos:] un sistema bien controlado reduce los costos asociados con el desperdicio, la energía y los tiempos de inactividad. La inversión inicial en sensores y sistemas de monitoreo se recupera rápidamente a través de una mayor eficiencia operativa.
+
+          li 
+            i.fas.fa-check-circle.color1
+            span #[b Toma de decisiones basada en datos:] la información en tiempo real permite a los operadores y gerentes tomar decisiones informadas, optimizando los procesos y respondiendo rápidamente a cualquier desviación que pueda surgir.
 
     .row.justify-content-center
-      .col-lg-10
+      .col-lg-12
         .titulo-sexto.color-acento-contenido
-          h5 Tabla 2.
-          span Tipos de filtrado de datos, objetivos, técnicas comunes y consideraciones.
+          h5 Figura 2. 
+          span Resumen control de variables en procesos productivos automatizados
 
-        .tabla-a.color-acento-botones.mb-5 
-          table
-            caption Fuente: OIT, 2024.
-            thead
-              tr
-                th Tipo de Filtrado
-                th Objetivo
-                th Técnicas Comunes
-                th Consideraciones
+        .bgfig.p-4.mb-1
+          img.img-a.img-t(src='@/assets/curso/temas/29.svg' alt='La Figura 2 se denomina «Resumen control de variables en procesos productivos automatizados». Presenta un mapa conceptual que se divide en seis secciones principales: una introducción que aborda la importancia y beneficios del control de variables, las variables de control en procesos (incluyendo ejemplos como temperatura, humedad, pH, presión, flujo, nivel y conductividad), el impacto de estas variables en la calidad y eficiencia, herramientas para el monitoreo en tiempo real (incluyendo sensores y sistemas de adquisición de datos), y las conclusiones que abordan la importancia del control y recomendaciones de implementación.')  
 
-            tbody
-              tr
-                td Limpieza
-                td Eliminar errores y anomalías
-                td Detección de #[i outliers], corrección de formatos
-                td Puede requerir validación manual
-              tr
-                td Reducción
-                td Disminuir el volumen de datos
-                td Muestreo, agregación
-                td Riesgo de pérdida de información
-              tr
-                td Transformación
-                td Convertir datos a formato útil
-                td Normalización, codificación
-                td Debe mantener la integridad de los datos
-              tr
-                td Enriquecimiento
-                td Agregar información adicional
-                td.fst-italic Joins, lookup tables
-                td Puede aumentar la complejidad
+        figcaption Fuente: OIT, 2024. 
 
-    Separador 
-    #t_2_3.titulo-segundo.color-acento-contenido
-      h2 2.3 Transformación e integración de datos    
-    .row.justify-content-center.mb-4
-      .col.my-lg-0.my-3
-        p La transformación de datos es como traducir un texto a diferentes idiomas: el significado debe mantenerse, aunque la forma cambie. Este proceso implica convertir los datos de su formato original a uno que sea más adecuado para el análisis o el modelado. Las transformaciones pueden ser tan simples como cambiar el formato de una fecha o tan complejas como aplicar cálculos matemáticos avanzados.
+    p.mt-5 Se recomiendan los siguientes recursos de acceso libre para complementar
 
-        p Una transformación común es la normalización, que ajusta los valores numéricos a una escala común. Por ejemplo, si tenemos datos de ventas en diferentes monedas, necesitaremos convertirlos todos a una moneda común para poder compararlos adecuadamente. Otro ejemplo sería la estandarización de textos, asegurando que todas las cadenas de caracteres sigan el mismo formato (mayúsculas/minúsculas, tratamiento de espacios, etc.).    
-      .col-auto.my-lg-0.my-3
-        img.img-a.img-t(src='@/assets/curso/temas/45.png', alt='')       
+    .row.justify-content-center
+      .col-lg-4.my-3
+        img.img-a.img-t(src='@/assets/curso/temas/30.png' alt='')
+      .col-lg-4.my-3
+        a.anexo.mb-3(href="https://www.youtube.com/watch?v=BtKf1G8Bi10 " target="_blank")
+          .anexo__icono
+            img(src="@/assets/curso/temas/icono-link.svg")
+          .anexo__texto
+            p #[b Enlace web.] Video ”Process Variables and Control Systems in Manufacturing” 
 
-    .row.justify-content-center.mb-5
-      .col-lg-5.my-lg-0.my-3
-        img.img-a.img-t(src='@/assets/curso/temas/44.png', alt='')       
-      .col-lg-7.my-lg-0.my-3
-        p La integración de datos es el proceso de combinar datos de diferentes fuentes en una vista unificada y coherente. Este proceso puede ser particularmente desafiante cuando las fuentes tienen diferentes estructuras, formatos o niveles de calidad. Es como armar un rompecabezas donde las piezas provienen de diferentes cajas: necesitamos encontrar la forma de que encajen correctamente. 
+        a.anexo.mb-3(href="https://www.mathworks.com/help/thingspeak/getting-started.html" target="_blank")
+          .anexo__icono
+            img(src="@/assets/curso/temas/icono-link.svg")
+          .anexo__texto
+            p #[b Enlace web.] Tutorial “Getting Started with ThingSpeak for IoT Application”      
 
-        p La integración también debe considerar la temporalidad de los datos. Los datos históricos pueden ser valiosos para identificar tendencias y patrones, pero deben integrarse de manera que mantengan su contexto temporal. Por ejemplo, al analizar el rendimiento de ventas, necesitamos asegurarnos de que estamos comparando períodos equivalentes y considerando factores estacionales.
+      .col-lg-4.my-3
+        a.anexo.mb-3(href="https://www.microchip.com/manual-sensores-industriales" target="_blank")
+          .anexo__icono
+            img(src="@/assets/curso/temas/icono-link.svg")
+          .anexo__texto
+            p #[b Enlace web.] Manual de Sensores Industriales               
 
-
-        p El éxito en la transformación e integración de datos requiere un equilibrio entre la automatización y el criterio humano. Si bien muchos procesos pueden automatizarse, el conocimiento del dominio y el juicio experto son fundamentales para garantizar que las transformaciones sean significativas y que la integración produzca resultados útiles para el análisis posterior.
-
-    .row.justify-content-start.mb-5
-      .col-auto
-        .list
-          .list__item
-            .list__item__icon
-              img.ms-2(src='@/assets/curso/temas/icon.svg' alt='')
-          .list__txt.bgicon.brad.p-0.px-4.text-white
-            h4.mb-0 Errores comunes y riesgos de datos contradictorios
-
-    .row.justify-content-center.mb-4 
-      .col-lg-6.my-3
-        TimeLineRED.color-primario(data-aos="fade-right")
-          p(numero="1" titulo="Confusión en la toma de decisiones") Los datos contradictorios pueden llevar a tomar decisiones erróneas, ya que diferentes fuentes de información proporcionan resultados opuestos. Esto afecta la confiabilidad de los análisis y puede generar estrategias mal orientadas.
-          p(numero="2" titulo="Impacto en el análisis de tendencias") Cuando los datos contienen contradicciones, los modelos predictivos y el análisis de tendencias se ven gravemente afectados. Esto puede dar lugar a conclusiones erróneas sobre comportamientos futuros o el desempeño de una estrategia.
-          p(numero="3" titulo="Problemas en la integración de datos") La combinación de datos provenientes de diferentes fuentes, sin un proceso de validación y reconciliación adecuado, puede generar incoherencias. Esto es especialmente crítico cuando se integran bases de datos de sistemas no compatibles o mal gestionados.
-          p(numero="4" titulo="Desconfianza de los usuarios") La presencia de datos contradictorios puede minar la confianza de los usuarios o stakeholders en los resultados obtenidos. La falta de confianza afecta la aceptación y el uso de los sistemas de inteligencia empresarial o modelos de IA.
-          p(numero="5" titulo="Dificultad en la escalabilidad") A medida que los volúmenes de datos crecen, las contradicciones en los datos se vuelven más difíciles de detectar. Esto complica la escalabilidad de los sistemas de análisis y puede generar errores en el procesamiento a gran escala.
-
-      .col-lg-6.my-lg-0.my-3
-        img.img-a.img-t(src='@/assets/curso/temas/46.png', alt='')  
-
-    .row.justify-content-center.align-items-center.bg11.p-0
-      .col-lg-5.my-lg-0.my-3.p-0
-        img.img-mov(src='@/assets/curso/temas/47.png', alt='')         
-      .col-lg-7.my-lg-0.my-3
-        .p-4.j1
-          h5.text-white.bg12.px-2 Cómo mitigar estos problemas
-          p.mb-0 Para evitar que los datos contradictorios afecten el análisis y la toma de decisiones, es necesario implementar procesos robustos de validación, limpieza y unificación de datos. Asegurar la consistencia y la verificación continua es clave para obtener resultados precisos y confiables.                   
 </template>
 
 <script>

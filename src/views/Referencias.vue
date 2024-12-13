@@ -16,12 +16,74 @@ export default {
     referencias: [
       {
         referencia:
-          'Antonio, P. P. (2022). Gestión de bases de datos. Ediciones Paraninfo, S.A.',
-        link: 'http://google.com',
+          'Amazon Web Services. (2019). <i>Introduction to AWS IoT Core</i>. YouTube. ',
+        link: 'https://www.youtube.com/watch?v=YjAQ3L5uC5g',
       },
       {
         referencia:
-          'Díaz, C. O., Soler, P., Pérez, M. & Mier, A. (2024). OMASHU: La ciencia detrás del éxito; Big Data e IA en los eSports. Revista SISTEMAS, 170, 61-79.',
+          'Beebom. (2019). <i>What is LoRa and LoRaWAN?</i> YouTube. ',
+        link: 'https://www.youtube.com/watch?v=efU-6qzGKTc',
+      },
+      {
+        referencia:
+          'Baker, M. (2020). <i>Cloud Platforms for IoT: An Overview</i>. IoT World Today. ',
+        link: 'https://www.iotworldtoday.com/',
+      },
+      {
+        referencia:
+          'Digi-Key Electronics. (2019). <i>Power Saving Techniques for IoT Devices</i>. Digi-Key. ',
+        link: 'https://www.digikey.com/',
+      },
+      {
+        referencia:
+          'DroneBot Workshop. (2020). <i>Getting Started with ESP32</i>. YouTube. ',
+        link: 'https://www.youtube.com/watch?v=MLaPp9gJfYY',
+      },
+      {
+        referencia:
+          'EdX. (2020). <i>IoT for Smart Buildings and Energy Management</i>. EdX. ',
+        link:
+          'https://www.edx.org/course/iot-smart-buildings-energy-management',
+      },
+      {
+        referencia:
+          'Google Cloud. (2021). <i>Getting Started with Google Cloud IoT Core</i>. Google Cloud. ',
+        link: 'https://cloud.google.com/iot-core/docs/quickstart',
+      },
+      {
+        referencia:
+          'IBM Think Academy. (2019). <i>How IoT is Revolutionizing Manufacturing and Predictive Maintenance</i>. YouTube. ',
+        link: 'https://www.youtube.com/watch?v=b6zAf8kx3o4',
+      },
+      {
+        referencia:
+          'IoT Projects. (2020). <i>How to Set Up Alerts in ThingSpeak Using IFTTT</i>. IoT Projects. ',
+        link: 'https://www.iotprojects.com/alerts-thingspeak-ifttt',
+      },
+      {
+        referencia:
+          'Lee, J., & Kim, H. (2021). <i>Cloud IoT Applications in Smart Agriculture and Manufacturing. Journal of Industrial IoT, 6</i>(2), 123-138. ',
+        link: 'https://www.journalindustriot.com/cloud-applications',
+      },
+      {
+        referencia:
+          'MathWorks. (2021). <i>Visualizing IoT Data with ThingSpeak</i>. MathWorks. ',
+        link: 'https://www.mathworks.com/help/thingspeak',
+      },
+      {
+        referencia:
+          'Random Nerd Tutorials. (2021). <i>How to Program ESP32 and ESP8266 with Arduino IDE</i>. Random Nerd Tutorials. ',
+        link: 'https://randomnerdtutorials.com/',
+      },
+      {
+        referencia:
+          'SparkFun. (2021). <i>DHT11 and DHT22 Sensors Explained</i>. SparkFun. ',
+        link: 'https://learn.sparkfun.com/tutorials/',
+      },
+      {
+        referencia:
+          'White, A. (2021). <i>Understanding IoT Communication Protocols: MQTT, CoAP, LoRa, and Others</i>. IoT For All. ',
+        link: 'https://www.iotforall.com/',
       },
     ],
   }),

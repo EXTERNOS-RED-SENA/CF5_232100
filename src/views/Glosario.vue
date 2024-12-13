@@ -24,39 +24,94 @@ export default {
     return {
       glosarioData: [
         {
-          termino: 'ACID',
+          termino: 'Actuador',
           significado:
-            'Acrónimo de Atomicidad, Consistencia, Aislamiento y Durabilidad; propiedades que garantizan que las transacciones en una base de datos sean fiables.',
+            'Dispositivo que recibe señales de control y realiza una acción física, como abrir una válvula o activar un motor, en función de los datos recibidos de un sistema IoT',
         },
         {
-          termino: 'Algoritmo',
+          termino: 'AWS IoT',
           significado:
-            'Conjunto ordenado y finito de operaciones sistemáticas que permite hacer un cálculo y hallar la solución de un problema específico.',
+            'Plataforma de Amazon Web Services para gestionar y analizar dispositivos IoT a escala industrial, con capacidades avanzadas de machine learning e inteligencia artificial.',
         },
         {
-          termino: 'Base de datos',
+          termino: 'Big Data',
           significado:
-            'Sistema organizado para recopilar, almacenar y gestionar datos de manera estructurada y eficiente.',
+            'Conjunto de datos masivos generados por dispositivos IoT, que requieren procesamiento avanzado y análisis para extraer información valiosa.',
         },
         {
-          termino: 'CRUD',
+          termino: 'Calibración de Sensores',
           significado:
-            '<i>Acrónimo de Create, Read, Update, Delete;</i> operaciones básicas que se pueden realizar sobre datos almacenados.',
+            'Proceso de ajuste de los sensores para que sus mediciones sean precisas y confiables, crucial en sistemas IoT para garantizar la calidad de los datos.',
         },
         {
-          termino: '<i>Dataset</i>',
+          termino: 'Eficiencia Energética',
           significado:
-            'Conjunto de datos organizados y formateados de manera específica para su uso en análisis o entrenamiento de modelos.',
+            'Optimización del consumo de energía en dispositivos IoT, fundamental para extender la vida útil de dispositivos alimentados por batería en entornos remotos.',
         },
         {
-          termino: 'Datos estructurados',
+          termino: 'Gemelos Digitales',
           significado:
-            'Información que está organizada en un formato predefinido y fácilmente procesable por máquinas, típicamente en tablas con filas y columnas.',
+            'Representación digital de un dispositivo o sistema físico, que permite simular su comportamiento en tiempo real, facilitando el monitoreo y análisis sin interferir en el sistema real.',
         },
         {
-          termino: 'ETL',
+          termino: 'Inteligencia Artificial (IA)',
           significado:
-            '<i>Extract, Transform, Load </i>(Extraer, Transformar, Cargar); proceso que permite a las organizaciones mover datos desde múltiples fuentes, reformatearlos y limpiarlos, y cargarlos en otra base de datos.',
+            'Técnica que utiliza datos IoT para anticipar fallos en equipos, permitiendo realizar mantenimiento antes de que ocurra una avería, mejorando la eficiencia operativa',
+        },
+        {
+          termino: 'Internet de las Cosas (IoT)',
+          significado:
+            'Conjunto de dispositivos físicos conectados a Internet, que recopilan, comparten y analizan datos para automatizar procesos y facilitar la toma de decisiones en tiempo real.',
+        },
+        {
+          termino: 'LoRaWAN',
+          significado:
+            'Protocolo de comunicación de largo alcance y bajo consumo de energía, ideal para conectar dispositivos IoT en áreas extensas, como campos agrícolas.',
+        },
+        {
+          termino: 'Mantenimiento Predictivo',
+          significado:
+            'Tipo de red en la cual cada dispositivo IoT se conecta con otros dispositivos cercanos, ampliando la cobertura y aumentando la fiabilidad de la comunicación, típico en ZigBee.',
+        },
+        {
+          termino: 'Microcontrolador (MCU)',
+          significado:
+            'Circuito integrado que funciona como el cerebro de un sistema IoT, procesando los datos de los sensores y transmitiéndolos a plataformas en la nube. Ejemplos: ESP32, ESP8266.',
+        },
+        {
+          termino: 'MQTT',
+          significado:
+            'Protocolo ligero de mensajería que facilita la comunicación entre dispositivos IoT y plataformas en la nube mediante un modelo de publicación/suscripción.',
+        },
+        {
+          termino: 'Plataforma en la Nube',
+          significado:
+            'Entorno digital en línea donde se almacenan, procesan y visualizan los datos de los dispositivos IoT, permitiendo el acceso y gestión remota del sistema.',
+        },
+        {
+          termino: 'Protocolo de Comunicación',
+          significado:
+            'Conjunto de reglas que permiten la transmisión de datos entre dispositivos IoT y plataformas en la nube, asegurando una comunicación efectiva y segura.',
+        },
+        {
+          termino: 'Sensor',
+          significado:
+            'Dispositivo que detecta y mide variables físicas como temperatura, humedad, presión, y las convierte en datos digitales para su procesamiento y análisis en sistemas IoT.',
+        },
+        {
+          termino: 'Simulador IoT',
+          significado:
+            'Herramienta virtual para probar y configurar sistemas IoT sin necesidad de <i>Hardware</i> físico, útil para verificar configuraciones y programación de sensores y actuadores.',
+        },
+        {
+          termino: 'ThingSpeak',
+          significado:
+            'Plataforma en la nube popular para proyectos IoT pequeños, que permite almacenar y visualizar datos de sensores en tiempo real, y configurar alertas automáticas.',
+        },
+        {
+          termino: 'Visualización de Datos',
+          significado:
+            'Presentación gráfica de los datos de IoT en tiempo real, facilitando el análisis y la toma de decisiones, común en plataformas como ThingSpeak y Google Cloud IoT.',
         },
       ],
     }

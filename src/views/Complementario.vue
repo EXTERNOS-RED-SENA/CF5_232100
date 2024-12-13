@@ -28,18 +28,40 @@ export default {
     complementarioData() {
       return [
         {
-          tema: '1. Fundamentos de datos y estructuras',
+          tema: 'Configuración del microcontrolador ESP32',
           referencia:
-            'Ecosistema de Recursos Educativos Digitales SENA. (2023c, septiembre 5). <i>Ejemplo problemas en la recolección de la información</i>.',
-          tipo: 'Video',
-          link: 'https://www.youtube.com/watch?v=LOlsg6ZkdcA ',
+            'DroneBot Workshop. (2020). Getting Started with ESP32. YouTube.',
+          tipo: 'Video tutorial',
+          link: 'https://www.youtube.com/watch?v=tc3Qnf79Ny8',
         },
         {
-          tema: '2. Calidad y tratamiento de datos',
+          tema: 'Programación con Arduino IDE',
           referencia:
-            'Ecosistema de Recursos Educativos Digitales SENA. (2023b, septiembre 5). <i>Datos sucios</i>.',
+            'Random Nerd Tutorials. (2021). How to Program ESP32 and ESP8266 with Arduino IDE.',
+          tipo: 'Tutorial en línea',
+          link: 'https://randomnerdtutorials.com/program-esp32-arduino-ide',
+        },
+        {
+          tema: 'Simulador para proyectos IoT',
+          referencia: 'Wokwi. (2022). Wokwi IoT Simulator. Wokwi.',
+          tipo: 'Simulador en línea',
+          link: 'https://wokwi.com/',
+        },
+        {
+          tema: 'AWS IoT en Aplicaciones Industriales',
+          referencia:
+            'Amazon Web Services. (2019). Introduction to AWS IoT Core. YouTube.',
           tipo: 'Video',
-          link: 'https://www.youtube.com/watch?v=qf6MR4o58cs ',
+          link:
+            'https://www.youtube.com/watch?v=Q89oqK_nzFg&list=PLhr1KZpdzukf3Ohr9eTB3eQlawDT5tHGL',
+        },
+        {
+          tema: 'Casos de Estudio en Agricultura y Manufactura',
+          referencia:
+            'Lee, J., & Kim, H. (2021). Cloud IoT Applications in Smart Agriculture and Manufacturing. Journal of Industrial IoT, 6(2), 123-138.',
+          tipo: 'Artículo de investigación',
+          link:
+            'Agricultura inteligente habilitada para IoT con Industria 5.0 - Aishita Sharma, Sunil K. Singh, Sudhakar Kumar, Ruchika Thakur, Brij B. Gupta, Varsha Arya, 2024  (journals.sagepub.com)',
         },
       ]
     },

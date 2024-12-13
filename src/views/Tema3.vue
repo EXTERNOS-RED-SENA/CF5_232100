@@ -7,97 +7,235 @@
         span 3
       h1 Gestión de bases de datos
 
-    .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5
-      .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/temas/48.png')})`}"
-      )
-      .bloque-texto-g__texto.p-4
-        p.mb-0 La gestión efectiva de bases de datos representa un componente central en la infraestructura de cualquier sistema de información moderno. En este capítulo, se explorarán los diferentes tipos de bases de datos, sus características distintivas y las mejores prácticas para su administración y optimización. 
+    .bg11.mb-4  
+      .row.justify-content-center
+        .col-lg-8.my-3.j1 
+          .p-4
+            p.mb-0 Las tecnologías de comunicación son el núcleo que permite que los sistemas IoT funcionen de manera efectiva, ya que facilitan la transmisión de datos desde los sensores hacia las plataformas de gestión y análisis de información. En la gestión de procesos productivos, la elección de la tecnología de comunicación adecuada es fundamental para asegurar la precisión, confiabilidad y eficiencia del sistema IoT, ya que cada tipo de red tiene distintas características en términos de alcance, velocidad de transmisión, consumo de energía y costos operativos.
+        .col-lg-4
+          img.img-a.img-t(src='@/assets/curso/temas/43.png' alt='') 
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-auto
+        img.img-a.img-t(src='@/assets/curso/temas/44.png' alt='')
+      .col.pt-lg-0.pt-md-4
+        p.mb-0 Este capítulo explora las principales tecnologías de comunicación utilizadas en IoT, detalla sus características y discute su aplicabilidad en diferentes entornos productivos. Se pone especial énfasis en los protocolos más relevantes, como LoRaWAN, MQTT y ZigBee, los cuales son ampliamente empleados en sistemas IoT para la industria y la agroindustria debido a su flexibilidad y eficiencia.  
 
     Separador 
-    #t_3_1.titulo-segundo.color-acento-contenido
-      h2 3.1 Bases de datos relacionales y no relacionales
+    #t_3_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+      h2 3.1	Protocolos de comunicación IoT                    
+    p Los protocolos de comunicación en IoT determinan cómo se envían y reciben los datos entre dispositivos. La elección de un protocolo adecuado depende de varios factores, como el tipo de datos, la distancia entre dispositivos, el consumo de energía y la infraestructura disponible. A continuación, se describen algunos de los protocolos más comunes en sistemas IoT para la gestión de procesos productivos:
 
-    .row.justify-content-center.mb-5
-      .col-lg-5.my-lg-0.my-3
-        img.img-a.img-t(src='@/assets/curso/temas/59.png', alt='')       
-      .col-lg-7.my-lg-0.my-3
-        .bg4.p-4.h-100.j1
-          p En el ecosistema moderno de gestión de datos, nos encontramos principalmente con dos grandes familias de bases de datos: las relacionales y las no relacionales (NoSQL). Cada una tiene sus propias fortalezas y casos de uso ideales, y comprender sus diferencias es fundamental para tomar decisiones acertadas en el diseño de sistemas de datos.
+    TabsC.color-acento-contenido.mb-5
+      .py-3.py-md-4.bg11(titulo="LoRa y LoRaWAN")
+        .row.justify-content-center.py-4
+          .col-lg-4.my-lg-0.my-3
+            img.img-a.img-t(src='@/assets/curso/temas/45.png' alt='')  
+          .col-lg-7.my-lg-0.my-3
+            h5 LoRaWAN (#[i Long Range Wide Area Network]) 
+            p Es un protocolo de comunicación diseñado para aplicaciones IoT de largo alcance y bajo consumo de energía. Utiliza modulación LoRa, que permite enviar datos a distancias extremadamente largas (hasta 15 km en entornos rurales) y operar con muy baja potencia, lo cual es ideal para dispositivos con baterías de larga duración. LoRaWAN es ampliamente utilizado en entornos donde los dispositivos están distribuidos en áreas extensas, como la agricultura, ya que permite monitorear variables de campo, como la humedad del suelo y la temperatura, en tiempo real sin necesidad de infraestructura costosa.
 
-          p.mb-0 Para visualizar mejor las diferencias fundamentales entre estos dos tipos de bases de datos, observemos la siguiente representación gráfica. Como se ilustra en la infografía, mientras las bases de datos relacionales se caracterizan por su estructura rígida y garantías ACID, las bases de datos NoSQL destacan por su flexibilidad y escalabilidad. Esta distinción es muy importante al momento de seleccionar el tipo de base de datos más adecuado para nuestras necesidades específicas. Por ejemplo, si necesitamos mantener la integridad referencial en transacciones financieras, una base de datos relacional sería la elección óptima. En cambio, si estamos manejando datos de redes sociales con estructuras variables y alto volumen de escrituras, una base de datos NoSQL podría ser más apropiada.  
+            p Características principales: 
 
-    .row.justify-content-center.mb-5
-      .col-auto
-        .titulo-sexto.color-acento-contenido
-          h5 Figura 1.
-          span Tipos de bases de datos
-        img.img-a.img-t.mb-2(src='@/assets/curso/temas/60.svg', alt='')       
-        figcaption Fuente. OIT, 2024.
+            ul.lista-ul.fa-ul
+              li 
+                i.fas.fa-check-circle.color1
+                span #[b Rango de comunicación:] hasta 15 km en áreas rurales y 5 km en entornos urbanos.
+              li 
+                i.fas.fa-check-circle.color1
+                span #[b Consumo de energía:] extremadamente bajo, lo que permite que los dispositivos funcionen por años con una sola batería.
+              li 
+                i.fas.fa-check-circle.color1
+                span #[b Aplicaciones típicas:] monitoreo de cultivos, gestión de recursos hídricos, control de variables en áreas remotas.            
 
-    .row.justify-content-center.mb-5.pb-3
-      .col-lg-5.my-lg-0.my-3
-        .p-3.h-100.j1 
-          p.mb-0 Ahora bien, las bases de datos relacionales han sido el pilar de la gestión de datos durante décadas. Se basan en el modelo relacional, donde los datos se organizan en tablas con filas y columnas claramente definidas. La fortaleza de este modelo radica en su capacidad para mantener la integridad de los datos y establecer relaciones claras entre diferentes entidades. Cuando necesitamos garantizar la consistencia de las transacciones y mantener relaciones complejas entre datos, las bases de datos relacionales son la opción más segura.   
-      .col-lg-3.my-lg-0.my-3.j1
-        img.img-a.img-t(src='@/assets/curso/temas/61.png', alt='')      
-      .col-lg-4.my-lg-0.my-3
-        .bg13.brad.p-2.px-3.h-100.j1 
-          p.mb-0 Por otro lado, las bases de datos NoSQL surgieron como respuesta a las necesidades de la era del big data y la web moderna. Ofrecen mayor flexibilidad en cuanto a la estructura de los datos y mejor escalabilidad horizontal. No requieren un esquema fijo, lo que las hace ideales para datos semi-estructurados o cuando la estructura de los datos puede cambiar con frecuencia.        
+      .py-3.py-md-4.bg11(titulo="MQTT")
+        .row.justify-content-center.py-4
+          .col-lg-4.my-lg-0.my-3
+            img.img-a.img-t(src='@/assets/curso/temas/46.png' alt='')  
+          .col-lg-7.my-lg-0.my-3
+            h5 MQTT  
+            p Es un protocolo ligero de mensajería diseñado específicamente para redes de baja ancho de banda y dispositivos de bajo consumo. MQTT emplea un modelo de comunicación de publicación/suscripción, en el cual los dispositivos publican datos a un servidor (broker) que los distribuye a los dispositivos que están suscritos a esos datos. Este modelo es altamente escalable y confiable, lo que lo hace adecuado para aplicaciones de IoT en entornos productivos donde se requiere una transmisión de datos eficiente y control de dispositivos en tiempo real.
+
+            p Características principales: 
+            ul.lista-ul.fa-ul
+              li 
+                i.fas.fa-check-circle.color1
+                span Bajo consumo de ancho de banda, adecuado para redes de comunicación limitadas.
+              li 
+                i.fas.fa-check-circle.color1
+                span Escalabilidad y fiabilidad en el envío de mensajes.
+              li 
+                i.fas.fa-check-circle.color1
+                span #[b Aplicaciones típicas:] gestión de datos en plataformas en la nube, automatización industrial, monitoreo en tiempo rea
+
+      .py-3.py-md-4.bg11(titulo="ZigBee")
+        .row.justify-content-center.py-4
+          .col-lg-4.my-lg-0.my-3
+            img.img-a.img-t(src='@/assets/curso/temas/47.png' alt='')  
+          .col-lg-7.my-lg-0.my-3
+            h5 ZigBee
+            p Es un protocolo de comunicación de corto alcance y bajo consumo de energía, diseñado para redes de sensores de IoT. Opera en la banda de frecuencia de 2.4 GHz y permite la creación de redes de malla, en las cuales los dispositivos pueden comunicarse entre sí para extender el rango de cobertura. ZigBee es ideal para aplicaciones de IoT en entornos industriales y de edificios inteligentes, donde se requiere una comunicación confiable entre dispositivos a corta distancia, como sensores de temperatura, iluminación y actuadores de control de acceso.
+
+            p Características principales:
+            ul.lista-ul.fa-ul
+              li 
+                i.fas.fa-check-circle.color1
+                span #[b Rango de comunicación:] de 10 a 100 metros en interiores.
+              li 
+                i.fas.fa-check-circle.color1
+                span Bajo consumo de energía y alta confiabilidad en redes de malla.
+              li 
+                i.fas.fa-check-circle.color1
+                span #[b Aplicaciones típicas:] automatización de edificios, control de iluminación y sistemas de sensores en áreas industriales.
+
+      .py-3.py-md-4.bg11(titulo="Wi-Fi")
+        .row.justify-content-center.py-4
+          .col-lg-4.my-lg-0.my-3
+            img.img-a.img-t(src='@/assets/curso/temas/48.png' alt='')  
+          .col-lg-7.my-lg-0.my-3
+            h5 Wi-Fi
+            p Aunque el Wi-Fi es ampliamente utilizado en redes domésticas y comerciales, también se utiliza en aplicaciones de IoT donde el consumo de energía no es una limitación y se requiere una alta tasa de transferencia de datos. En procesos productivos, el Wi-Fi permite conectar dispositivos IoT a una red local o a Internet para gestionar grandes volúmenes de datos en tiempo real. No obstante, el Wi-Fi tiene un rango de cobertura más limitado y consume más energía, por lo que su uso en IoT está generalmente restringido a entornos donde hay disponibilidad de energía continua, como plantas industriales o sistemas de monitoreo en interiores.
+
+            p Características principales: 
+            ul.lista-ul.fa-ul
+              li 
+                i.fas.fa-check-circle.color1
+                span #[b Rango de comunicación:] hasta 100 metros en interiores.
+              li 
+                i.fas.fa-check-circle.color1
+                span Alta velocidad de transferencia de datos, ideal para aplicaciones que requieren gran ancho de banda.
+              li 
+                i.fas.fa-check-circle.color1
+                span #[b Aplicaciones típicas:] monitoreo en interiores, transmisión de datos en tiempo real en procesos de manufactura.
+
 
     Separador 
-    #t_3_2.titulo-segundo.color-acento-contenido
-      h2 3.2 Operaciones CRUD y consultas básicas
-
-    .row.justify-content-center.mb-5
-      .col-lg-5.my-lg-0.my-3
-        img.img-a.img-t(src='@/assets/curso/temas/62.png', alt='')       
-      .col-lg-7.my-lg-0.my-3
-        .bg4.p-4.h-100.j1
-          p #[b Las operaciones CRUD (Create, Read, Update, Delete)] son de alta relevancia para interactuar con los datos almacenados en cualquier sistema de base de datos. La implementación de estas operaciones varía según el tipo de base de datos, pero los principios básicos permanecen constantes.
-
-          p En el contexto de bases de datos relacionales, estas operaciones se realizan mediante SQL (Structured Query Language). Las consultas SELECT permiten recuperar datos específicos, mientras que INSERT, UPDATE y DELETE se utilizan para modificar los registros existentes. La potencia de SQL radica en su capacidad para realizar consultas complejas que combinan datos de múltiples tablas y aplican criterios de filtrado y agregación.
-
-          p Para las bases de datos NoSQL, las operaciones CRUD se implementan de manera diferente según el tipo específico de base de datos. Por ejemplo, en una base de datos documental como MongoDB, se trabaja con documentos JSON que pueden tener estructura variable, y las operaciones se realizan mediante métodos específicos de la API de la base de datos. 
-
-    Separador 
-    #t_3_3.titulo-segundo.color-acento-contenido
-      h2 3.3 Gestión y optimización de bases de datos
-
-    .row.justify-content-center.mb-5
-      .col-lg-7.my-lg-0.my-3
-        .bg14.p-4.h-100.j1
-          p La gestión efectiva de bases de datos va más allá de simplemente almacenar y recuperar información. Implica un conjunto de prácticas y técnicas para asegurar el rendimiento, la disponibilidad y la integridad de los datos. La optimización es un proceso continuo que debe adaptarse a las cambiantes necesidades del sistema.
-
-          p Un aspecto esencial de la optimización es el diseño e implementación de índices. Los índices son estructuras de datos adicionales que mejoran la velocidad de las operaciones de búsqueda, pero tienen un costo en términos de espacio de almacenamiento y rendimiento de escritura. La decisión de qué campos indexar debe basarse en un análisis cuidadoso de los patrones de acceso a los datos.    
-      .col-lg-5.my-lg-0.my-3
-        img.img-a.img-t(src='@/assets/curso/temas/63.png', alt='')       
-
-    .row.justify-content-center.mb-5
-      .col-lg-5.my-lg-0.my-3
-        img.img-a.img-t(src='@/assets/curso/temas/64.png', alt='')       
-      .col-lg-7.my-lg-0.my-3
-        p El monitoreo del rendimiento es una parte fundamental de la gestión de bases de datos. Es necesario prestar atención a métricas como el tiempo de respuesta de las consultas, el uso de recursos del sistema y los patrones de acceso a los datos. Las herramientas de monitoreo identifican cuellos de botella y oportunidades de optimización.
-
-        p La seguridad es otro aspecto que no puede descuidarse. Esto incluye la gestión de usuarios y permisos, la encriptación de datos sensibles y la implementación de políticas de respaldo y recuperación. En el contexto de la inteligencia artificial, donde frecuentemente se trabaja con datos sensibles o personales, la seguridad adquiere una importancia aún mayor.
-
-        p La escalabilidad es un factor clave en la gestión de grandes volúmenes de datos. Los sistemas de bases de datos deben ser diseñados para adaptarse al crecimiento futuro, ya sea a través de escalabilidad vertical (ampliando los recursos de un único servidor) o horizontal (distribuyendo la carga entre varios servidores). Las estrategias de particionamiento y replicación son fundamentales para manejar grandes cantidades de datos de forma eficiente. 
-
-    .row.justify-content-center.mb-4
-      .col-lg-6.my-lg-0.my-3
-        img.img-a.img-t(src='@/assets/curso/temas/65.png', alt='')      
-      .col-lg-6.my-3
-        TimeLineRED.color-primario(data-aos="fade-right")
-          p(numero="1" titulo="Identificar los campos más consultados") Para crear índices efectivos, es necesario analizar las consultas frecuentes y determinar qué campos son utilizados con mayor regularidad en los filtros y las cláusulas JOIN. Esto permite enfocarse en las columnas que realmente mejorarán el rendimiento de las consultas.
-          p(numero="2" titulo="Evaluar el costo de actualización") Aunque los índices aceleran las búsquedas, también pueden ralentizar las operaciones de inserción, actualización y eliminación. Es importante equilibrar el beneficio de la velocidad de lectura con el costo adicional en las operaciones de escritura, priorizando índices en columnas que se consultan más que las que se actualizan con frecuencia.
-          p(numero="3" titulo="Seleccionar el tipo adecuado de índice") Dependiendo de las necesidades del sistema, se deben elegir entre diferentes tipos de índices, como los índices B-tree, hash, o índices compuestos. La elección debe basarse en la estructura de los datos y las operaciones de búsqueda que se realizarán con mayor frecuencia.
-          p(numero="4" titulo="Monitorear el uso de índices") Es fundamental realizar un seguimiento del uso de los índices en las consultas. Algunos índices pueden volverse innecesarios con el tiempo, especialmente si las consultas o patrones de acceso cambian. Monitorear su rendimiento permite eliminar índices redundantes y mantener la base de datos optimizada.
-          p(numero="5" titulo="Considerar la fragmentación de índices") A medida que se insertan, actualizan o eliminan datos, los índices pueden fragmentarse, lo que reduce su eficiencia. Se debe realizar un mantenimiento periódico para reorganizar o reconstruir los índices y asegurarse de que sigan funcionando de manera óptima.
+    #t_3_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+      h2 3.2 Comparación de protocolos de comunicación: alcances y limitaciones             
+    p La elección de un protocolo de comunicación adecuado para un sistema IoT depende de varios factores, tales como el alcance necesario, el consumo de energía, la cantidad de datos a transmitir y el entorno en el cual se despliega el sistema. A continuación, se presenta una comparación de los protocolos mencionados: 
 
     .row.justify-content-center
-      .col-lg-10
-        .bg2.p-4
-          p.mb-0 Estas prácticas permiten crear índices bien diseñados que no solo optimizan las consultas, sino que también equilibran el uso de recursos y el rendimiento general de la base de datos.
+      .col-lg-8
+        .titulo-sexto.color-acento-contenido
+          h5 Tabla 2. 
+          span Comparación de protocolos de comunicación
+        .tabla-a.color-acento-botones.mb-5
+          table
+            caption Fuente: OIT, 2024.
+            thead
+              tr
+                th Protocolo 
+                th Alcance
+                th Consumo de energía
+                th Ancho de banda
+                th Aplicaciones principales
+            tbody
+              tr
+                td LoRaWAN
+                td Hasta 15 km
+                td Muy bajo
+                td Bajo
+                td Monitoreo en áreas rurales, agricultura, gestión de recursos
+
+              tr
+                td MQTT
+                td Variable
+                td Bajo
+                td Bajo
+                td Plataformas en la nube, automatización industrial, IoT general 
+
+              tr
+                td ZigBee
+                td 10-100 metros
+                td Muy bajo
+                td Medio
+                td Automatización de edificios, redes de sensores locales 
+
+              tr
+                td Wi-Fi
+                td Hasta 100 m
+                td Alto
+                td Alto
+                td Monitoreo en interiores, transmisión de grandes volúmenes de datos 
+
+    p Cada protocolo tiene fortalezas y limitaciones que se deben considerar en función de los requerimientos específicos del sistema IoT. Por ejemplo, LoRaWAN es ideal para áreas rurales y dispositivos de bajo consumo energético, mientras que Wi-Fi es más adecuado para entornos donde se necesita transmitir grandes volúmenes de datos y la energía es accesible.    
+
+    Separador 
+    #t_3_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+      h2 3.3	Aplicación de tecnologías de comunicación en procesos productivos
+    .row.justify-content-center.mb-4
+      .col-lg-8.my-lg-0.my-3
+        p La implementación de tecnologías de comunicación en IoT para procesos productivos permite mejorar la eficiencia y precisión en la gestión de variables clave. A continuación, se destacan algunas aplicaciones típicas de estas tecnologías en diferentes sectores productivos:
+        AccordionRED(tipo="a" clase-tarjeta="tarjeta bg7")
+          div(titulo="Agricultura de precisión") En la agricultura, los sensores de humedad, temperatura y nutrientes se distribuyen en grandes extensiones de terreno y envían datos a través de LoRaWAN hacia una plataforma central. Esta tecnología permite a los agricultores recibir información en tiempo real y optimizar el riego y fertilización de los cultivos, reduciendo así el uso de recursos y aumentando la productividad de las tierras.     
+          div(titulo="Automatización industrial") En entornos industriales, el uso de MQTT facilita la transmisión de datos entre sensores, actuadores y sistemas de control en tiempo real. Los datos sobre variables como temperatura y presión se transmiten a un sistema SCADA (supervisión, control y adquisición de datos) que permite a los operadores supervisar y ajustar el proceso sin intervención directa.     
+          div(titulo="Monitoreo de infraestructura y energía") Las redes de sensores ZigBee se utilizan en edificios inteligentes para controlar la iluminación, la climatización y los sistemas de acceso, reduciendo el consumo de energía y mejorando el confort de los usuarios. ZigBee es ideal para estas aplicaciones por su capacidad para crear redes de malla que cubren edificios completos y su bajo consumo energético.     
+      .col-lg-4.my-lg-0.my-3
+        img.img-a.img-t(src='@/assets/curso/temas/49.png' alt='')   
+
+
+    Separador 
+    #t_3_4.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+      h2 3.4	Ventajas de una conectividad eficiente en sistemas IoT
+    p La implementación de tecnologías de comunicación eficientes en sistemas IoT ofrece diversas ventajas en la gestión de procesos productivos:
+                
+    .row.justify-content-center.mb-4.bg2.p-4
+      .col-lg-3.my-lg-0.my-3
+        img.img-a.img-t(src='@/assets/curso/temas/50.png' alt='')        
+      .col-lg-9.my-lg-0.my-3
+        ul.lista-ul.fa-ul
+          li 
+            i.fas.fa-check-circle.color1
+            span #[b Optimización del consumo energético:] protocolos como LoRaWAN y ZigBee permiten que los dispositivos funcionen con baterías durante años, lo cual es ideal para entornos sin acceso a energía continua.
+
+          li 
+            i.fas.fa-check-circle.color1
+            span #[b Escalabilidad:] las redes IoT pueden expandirse fácilmente al añadir nuevos dispositivos que se conectan al sistema sin necesidad de infraestructura adicional.
+
+          li 
+            i.fas.fa-check-circle.color1
+            span #[b Reducción de costos operativos:] una conectividad eficiente permite reducir la intervención manual y optimizar el uso de recursos, disminuyendo así los costos de operación.
+
+          li 
+            i.fas.fa-check-circle.color1
+            span #[b Toma de decisiones en tiempo real:] la disponibilidad de datos en tiempo real permite tomar decisiones informadas de manera inmediata, mejorando la eficiencia y adaptabilidad de los procesos productivos.
+
+    .row.justify-content-center
+      .col-lg-12
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 3. 
+          span Resumen tecnologías de comunicación utilizadas en IoT
+
+        .bgfig.p-4.mb-1
+          img.img-a.img-t(src='@/assets/curso/temas/29.svg' alt='La Figura 3 se denomina «Resumen tecnologías de comunicación utilizadas en IoT». Presenta un mapa conceptual que se divide en cinco secciones principales: la importancia de las tecnologías de comunicación (que facilitan la transmisión de datos y aseguran la precisión), la elección de la tecnología adecuada (considerando alcance, velocidad, consumo y costos), las principales tecnologías utilizadas (como LoRaWAN, MQTT y ZigBee), énfasis en los protocolos más relevantes, y el uso común de estas tecnologías en la industria y agroindustria. ')  
+
+        figcaption Fuente: OIT, 2024. 
+
+    p.mt-5 Se recomiendan los siguientes recursos de acceso libre para complementar
+
+    .row.justify-content-center
+      .col-lg-4.my-3
+        img.img-a.img-t(src='@/assets/curso/temas/30.png' alt='')
+      .col-lg-4.my-3
+        a.anexo.mb-3(href="https://www.youtube.com/watch?v=efU-6qzGKTc" target="_blank")
+          .anexo__icono
+            img(src="@/assets/curso/temas/icono-link.svg")
+          .anexo__texto
+            p #[b Enlace web.] Video “What is LoRa and LoRaWAN” 
+
+        a.anexo.mb-3(href="https://www.digi.com/resources/documentation/digidocs/pdfs/zigbee-standard" target="_blank")
+          .anexo__icono
+            img(src="@/assets/curso/temas/icono-link.svg")
+          .anexo__texto
+            p #[b Enlace web.] Manual técnico - ZigBee Wireless Standard: Applications and Benefits".       
+
+      .col-lg-4.my-3
+        a.anexo.mb-3(href="https://www.iot-times.com/blog/using-wifi-iot" target="_blank")
+          .anexo__icono
+            img(src="@/assets/curso/temas/icono-link.svg")
+          .anexo__texto
+            p #[b Enlace web.] Blog técnico- "Using Wi-Fi in IoT: Pros and Cons"       
+
 
 </template>
 
