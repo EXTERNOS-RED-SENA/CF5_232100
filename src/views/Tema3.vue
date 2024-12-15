@@ -207,7 +207,7 @@
           span Resumen tecnologías de comunicación utilizadas en IoT
 
         .bgfig.p-4.mb-1
-          img.img-a.img-t(src='@/assets/curso/temas/29.svg' alt='La Figura 3 se denomina «Resumen tecnologías de comunicación utilizadas en IoT». Presenta un mapa conceptual que se divide en cinco secciones principales: la importancia de las tecnologías de comunicación (que facilitan la transmisión de datos y aseguran la precisión), la elección de la tecnología adecuada (considerando alcance, velocidad, consumo y costos), las principales tecnologías utilizadas (como LoRaWAN, MQTT y ZigBee), énfasis en los protocolos más relevantes, y el uso común de estas tecnologías en la industria y agroindustria. ')  
+          img.img-a.img-t(src='@/assets/curso/temas/51.svg' alt='La Figura 3 se denomina «Resumen tecnologías de comunicación utilizadas en IoT». Presenta un mapa conceptual que se divide en cinco secciones principales: la importancia de las tecnologías de comunicación (que facilitan la transmisión de datos y aseguran la precisión), la elección de la tecnología adecuada (considerando alcance, velocidad, consumo y costos), las principales tecnologías utilizadas (como LoRaWAN, MQTT y ZigBee), énfasis en los protocolos más relevantes, y el uso común de estas tecnologías en la industria y agroindustria. ')  
 
         figcaption Fuente: OIT, 2024. 
 
