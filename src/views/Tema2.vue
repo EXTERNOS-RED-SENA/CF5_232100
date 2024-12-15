@@ -141,7 +141,7 @@
           span Resumen control de variables en procesos productivos automatizados
 
         .bgfig.p-4.mb-1
-          img.img-a.img-t(src='@/assets/curso/temas/51.svg' alt='La Figura 2 se denomina «Resumen control de variables en procesos productivos automatizados». Presenta un mapa conceptual que se divide en seis secciones principales: una introducción que aborda la importancia y beneficios del control de variables, las variables de control en procesos (incluyendo ejemplos como temperatura, humedad, pH, presión, flujo, nivel y conductividad), el impacto de estas variables en la calidad y eficiencia, herramientas para el monitoreo en tiempo real (incluyendo sensores y sistemas de adquisición de datos), y las conclusiones que abordan la importancia del control y recomendaciones de implementación.')  
+          img.img-a.img-t(src='@/assets/curso/temas/42.svg' alt='La Figura 2 se denomina «Resumen control de variables en procesos productivos automatizados». Presenta un mapa conceptual que se divide en seis secciones principales: una introducción que aborda la importancia y beneficios del control de variables, las variables de control en procesos (incluyendo ejemplos como temperatura, humedad, pH, presión, flujo, nivel y conductividad), el impacto de estas variables en la calidad y eficiencia, herramientas para el monitoreo en tiempo real (incluyendo sensores y sistemas de adquisición de datos), y las conclusiones que abordan la importancia del control y recomendaciones de implementación.')  
 
         figcaption Fuente: OIT, 2024. 
 
